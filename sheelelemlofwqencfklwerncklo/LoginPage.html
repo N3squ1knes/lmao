@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="LoginCode.js"></script>
+       <title>
+           UATSpace Login Page
+       </title>
+    </head>
+    <body>
+        <img src="UATspaceLogo-1.jpg">
+            <h1>
+                Welcome to the UATSpace login page <br>
+                Please log in...
+            </h1>
+            <br>
+            <br>
+            <div id="loginStatus">Status of the login...</div>
+            <br>
+            <form id="creditsSubmit" onsubmit="return false">
+                First name: <input type="text" id="fname"><br>
+                Last name: <input type="text" id="lname"><br>
+                Badge Number: <input type="number" id="badgeID"><br>
+                <input type="submit" onclick="checkCreds();">
+
+            </form>
+    </body>
+</html>
